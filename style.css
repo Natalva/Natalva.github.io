@@ -1,39 +1,42 @@
-/*
-html, body {
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-}
-
-.box{
-
-	background-image: url ("twigs2.gif")
-padding: 100px;
-margin: 100px;
-
-background-repeat: repeat-x;
-
-img {
-	max-width: 100%;
-	}*/
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 html {
-    fontfamily: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    text-align: center
-    background: #EEE
+     
+    text-align: left;
+    margin-left:350px;
+    background-color: ;
+    color:#ffd800;
+    background: white url("https://media.giphy.com/media/26xBzu2ogAunL19hS/giphy.gif") no-repeat center;
+    background-size: cover;
 }
 
 h1 {
+    font-size: 45px;
+    margin: .5em;
+
 }
 
-#students {
+#facts {
+    margin: .5em;
+    font-size: 25px;
+    line-height: 1.5;
     list-style: none;
 }
 
-#students a {
+#facts a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#facts mark {
+    color: white;
+    text-decoration: none;
+    background-color: #a880ff;
+    font-size: 25px;
 }
